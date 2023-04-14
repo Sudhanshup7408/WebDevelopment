@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <!-- Styling for the table -->
+    <style>
+        table,thead,td{
+            margin: 20px 40px 20px 90px;
+            align-items: center;    
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- To form the table using the table tag -->
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: red;">
+            <col span="1" style="background-color: blue">
+            <col span="1" style="background-color: green">
+        </colgroup>
+        <!--thead for the heading of the table  -->
+        <thead >
+            <!-- table data for the heading -->
+                <td>Name</td>
+                <td>Subject</td>
+                <td>Marks</td>
+                <!-- tbody for the body like all the data  -->
+            <tbody>
+                <tr>
+                    <td>Ankit</td>
+                    <td>Maths</td>
+                    <td>93</td>
+                </tr>
+                <tr>
+                    <td>Ankur</td>
+                    <td>English</td>
+                    <td>78</td>
+                </tr>
+                <!-- this is tfoot for the footer of the table -->
+                <tfoot>
+                        <td>Sudhanshu</td>
+                        <td>Hindi</td>
+                        <td>97</td>
+                </tfoot>
+            </tbody>
+        </thead>
+    </table>
+</body>
+</html>

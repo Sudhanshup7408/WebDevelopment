@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .upper{
+            margin-top: 10%;
+            text-align: center;
+            color: blue;
+        }
+        html{
+            height: 100%;
+            width: 1536px;
+            background-image: linear-gradient(orange,white,green);
+            /* background-image: linear-gradient(to top left, red,yellow); */
+            background-repeat:no-repeat;
+        }
+        .login{
+            margin-top: 50px;
+            text-align: center;
+        }
+        footer{
+            text-align: center;
+            margin-top: 18%;
+        }
+    </style>
+</head>
+<body>
+    <div class="upper">
+        <h2>Welcome to the Login Page!!</h2>
+    </div>
+    <div class="login">
+            <form action="https://www.google.com">
+
+                <!-- Input for the Username -->
+                <label for="Username">UserName: </label>
+                <input type="text" placeholder="Enter Username" required><br><br>
+
+                <!-- Input for the Password -->
+                <label for="Password">Password: </label>
+                <input type="password" placeholder="Enter password" required><br><br>
+
+                <!-- Input for the Date -->
+                <label for="Date">Date:</label>
+                <input type="date" required><br><br>
+
+                <!-- Input for the Gender as a dropdown -->
+                <label for="gender">Gender: </label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="FeMale">Female</option>
+                    <option value="Nottosay">Not to Say</option>
+                </select><br><br>
+
+                <!-- Submit button -->
+                <button>Submit</button>
+            </form>
+    </div>
+    <footer>
+        <p>All right reserved to &copy; Sudhanshu Pal</p>
+    </footer>
+</body>
+</html>
